@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Decadents Row</title>
 
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+    
+    <script src="./js/three.min.js"></script>
+
     <!-- update the version number as needed -->
     <script defer src="/__/firebase/7.5.0/firebase-app.js"></script>
     <!-- include only the Firebase features as you need -->
@@ -12,12 +16,14 @@
     <!-- initialize the SDK after all desired features are loaded -->
     <script defer src="/__/firebase/init.js"></script>
 
-    <script defer src="./js/three.min.js"></script>
-
-    <style media="screen">
-    </style>
   </head>
   <body>
-    
+    <h1>Decadents Row</h1>
+
+    <div id="scene-container">
+      <canvas><!-- This div will hold our scene--></canvas>
+    </div>
+
+    <script src="js/app.js"></script>
   </body>
 </html>
